@@ -4,7 +4,7 @@
 2. CSS 기초     : 02 > 02.html
 ---
 +참고 사이트    
-+  [W3school](https://www.w3schools.com/, "W3School link")
++  [W3school](https://www.w3schools.com/ "W3School link")
 
 + 마크다운 참조     
     +https://gist.github.com/ihoneymon/652be052a0727ad59601
