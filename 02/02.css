@@ -1,5 +1,5 @@
 body {
-    background-color: skyblue; 
+    background-color: skyblue;
     margin: 0;
     padding: 0;
 }
@@ -22,17 +22,22 @@ ul {
 }
 
 li {
-    background-color: blue; 
+    background-color: blue;
+    border-radius: 10px;
     padding: 10px 10px;
-    display: inline-block; 
-    color: white; 
-    margin-right: 10px; 
-    margin-bottom: 10px; 
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    background-color: coral;
 }
 
 a {
     text-decoration: none;
-    color: white; 
+    color: white;
 }
 
 main {
@@ -42,8 +47,8 @@ main {
 }
 
 article {
-    background-color: black; 
-    color: #fff; 
+    background-color: black;
+    color: #fff;
     padding: 20px;
     margin-bottom: 20px;
     text-align: left;
@@ -51,6 +56,7 @@ article {
 
 section {
     background-color: white;
+    border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -79,10 +85,12 @@ article {
 
 
 @media screen and (max-width: 1024px) {
-    header{
-        display:flex;
+    header {
+        display: flex;
 
     }
-  }
+}
 
-img {border-radius:50%}
+img {
+    border-radius: 50%
+}
