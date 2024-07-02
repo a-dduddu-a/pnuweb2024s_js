@@ -1,0 +1,39 @@
+/* 전체 요소 모두 선택 */
+* {
+    margin: 0px;
+    padding: 0px; 
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+
+  main{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: coral;
+
+}
